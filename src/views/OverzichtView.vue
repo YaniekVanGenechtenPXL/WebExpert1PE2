@@ -44,7 +44,9 @@
                     <h2>Results</h2>
                     <div class="overview__flexbox">
                         <div v-for="(product, index) in paginatedProducts" :key="index">
-                            <ProductCardComponent :product="product"></ProductCardComponent>
+                            <router-link :to="{ name: 'DetailView', params: { id: product.id } }">
+                                <ProductCardComponent :product="product"></ProductCardComponent>
+                            </router-link>
                         </div>
                     </div>
                     <div class="paginering">
@@ -150,7 +152,6 @@ export default {
             this.categoryValue = 'all'
             this.sliderValue = this.maxPrice
             this.updateFilters()
-
         }
     }
 }

@@ -26,33 +26,3 @@
         </ul>
     </footer>
 </template>
-
-<style scoped>
-footer {
-  background-color: #899d5e;
-  width: 100vw;
-  padding: 5vw 2vw 7vw 2vw;
-  display: flex;
-  justify-content: space-between;
-}
-footer p, footer a {
-  color: #FFF;
-  font-family: "Montserrat", sans-serif;
-  font-weight: 300;
-  font-size: 15px;
-}
-footer ul {
-  width: 33.33vw;
-}
-footer ul li {
-  list-style: none;
-  margin: 10px 0;
-}
-footer ul li ul {
-  display: flex;
-  gap: 0 20px;
-}
-footer ul li ul img {
-  height: 20px;
-}
-</style>

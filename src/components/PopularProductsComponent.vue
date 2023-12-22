@@ -29,22 +29,3 @@ export default {
   },
 };
 </script>
-
-
-<style scoped>
-#container {
-  width: 90%;
-  margin: 0 auto;
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-}
-#flex {
-  display: inline-block;
-}
-h2 {
-  width: 100%;
-  text-align: center;
-  color: #899d5e;
-}
-</style>
