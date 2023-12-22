@@ -1,0 +1,59 @@
+/*  Global Styles  */
+
+html {
+    scroll-behavior: smooth;
+    background-color: #2b7180;
+  }
+  
+  body {
+    background-color: #FFF;
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  h1 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    font-size: 2em;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+  }
+  
+  h2 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    font-size: 3em;
+    text-transform: capitalize;
+  }
+  
+  h3 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    font-size: 1.2em;
+    text-transform: capitalize;
+  }
+  
+  h4 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    font-size: 1em;
+    text-transform: uppercase;
+    color: #FFF;
+  }
+  
+  h5 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 300;
+    font-size: 1em;
+    text-transform: uppercase;
+  }
+  
+  p {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 1.2em;
+  }
